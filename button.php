@@ -10,5 +10,5 @@
 ?>
 
 <Response>
-    <Say><?php echo $response; ?></Say>
+    <Sms><?php echo $response; ?></Sms>
 </Response>
