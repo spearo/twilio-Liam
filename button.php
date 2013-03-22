@@ -6,9 +6,9 @@
     $response = "You pressed button $button_pressed";
   }
   header("content-type: text/xml");
+  echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 ?>
 
-<?xml version="1.0" encoding="UTF-8"?>
 <Response>
     <Say><?php echo $response; ?></Say>
 </Response>
