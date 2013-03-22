@@ -3,7 +3,7 @@
   if($button_pressed == 1){
     $response = "You pressed button 1";
   }else{
-    $response = "You pressed button $button_pressed";
+    $response = "haha, you is a wanker!! $button_pressed";
   }
   header("content-type: text/xml");
 ?>
